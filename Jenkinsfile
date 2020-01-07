@@ -8,7 +8,7 @@ pipeline {
 				}
 			}
 		}
-		stage('compile stage'){
+		stage('testing stage'){
 			steps{
 				withmaven(maven : 'apache-maven-3.6.3'){
 				bat 'mvn test'
